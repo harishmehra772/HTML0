@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>FORM EXAMPLE</h1>
+    <hr><br>
+    <form action="#">
+        <label for="username"> <b>Enter your username</b> </label>
+        <input type="text" id="username"  maxlength="20"
+        placeholder="harish_mehra11" required/>
+
+        <br><br>
+        <label for="dob">
+            Date of Birth
+        </label>
+        <input type="date"
+            id="dob"
+            min="2000-01-01"
+            max="2022-09-10"/>
+        
+            <br><br>
+        <label for="age">
+                Enter your age
+            </label>
+        <input type="number" max="22" min="1" id="age">
+        
+        <br><br>
+        <label for="doc">
+            Upload your documents
+        </label>
+
+        <input type="file" name="doc" id="doc" multiple/>
+
+        <br><br>
+        <label for="options">
+            Select any one option
+        </label>
+        <select name="options" id="options">
+            <option value="opt1">option 1</option>
+            <option value="opt2">option 2</option>
+            <option value="opt3">option 3 </option>
+
+        </select>
+        <br><br>
+        <textarea name=" " id="" cols="30" rows="10"></textarea>
+        <br><br>
+        <button onclick="alert('Submitted!')">submit</button>
+
+    </form>
+    
+</body>
+</html>
